@@ -7,6 +7,8 @@ import "./App.css";
 
 // Also include a secondary variant of the button that matches this design: https://drive.google.com/file/d/1qUhs3qttNhsO0nfbK49-jS8iAaQLr2Gk/view?usp=sharing
 
+// Don't worry about using the correct font family, for this example just use "Arial" bold or something similar.
+
 function App() {
   return (
     <div className="App">
