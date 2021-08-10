@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+// Create a Button component that matches the style of the PickUp Button, it should be re-usable and allow for prop driven customization
+// You can view the button here: https://drive.google.com/file/d/1PrU3J_-1Vo_Bfao9ZZ55xzxOGyROsw6C/view?usp=sharing
+// The gradient for the purple background is:  `linear-gradient(112.25deg, rgb(145, 78, 255) -20.38%, rgb(93, 27, 255) 122.56%)`
+
+// Also include a secondary variant of the button that matches this design: https://drive.google.com/file/d/1qUhs3qttNhsO0nfbK49-jS8iAaQLr2Gk/view?usp=sharing
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button />
     </div>
   );
 }
